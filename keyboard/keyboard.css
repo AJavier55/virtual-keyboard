@@ -1,18 +1,19 @@
 .keyboard {
     position: fixed;
-    left: 0;
+    left: 325px;
+    /* right: 200px; */
     bottom: 0;
     width: 95%;
-    max-width: 1050px;
+    max-width: 1150px;
     padding: 10px;
     border-radius: 10px;
     background: #e6e6e6;
     background-color: #f3f7fc;
     background-image: linear-gradient(
       145deg,
-      rgb(204, 204, 204) 0%,
-      rgb(235, 234, 234) 45%,
-      rgb(170, 170, 170) 100%
+      rgb(70, 66, 66) 0%,
+      rgb(116, 111, 111) 45%,
+      rgb(32, 31, 31) 100%
     );
     box-shadow: 4px 4px 6px #7c7c7c, -5px -5px 10px #ffffff;
   }
@@ -35,7 +36,7 @@
     border-radius: 15px;
     outline: none;
     border-radius: 4px;
-    background: #eeeded;
+    background: #9b9696;
     box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
   }
   
@@ -43,7 +44,7 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-    background: rgba(145, 144, 144, 0.1);
+    background: rgba(17, 17, 17, 0.1);
     font-family: "Rubik", sans-serif;
   }
   
@@ -54,7 +55,7 @@
     margin: 3px;
     border-radius: 4px;
     border: none;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(68, 197, 17, 0.377);
     color: #000;
     font-size: 1.05rem;
     outline: none;
@@ -69,7 +70,7 @@
   }
   
   .keyboard__key:active {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(149, 150, 163, 0.705);
   }
   
   .keyboard__key--wide {
@@ -88,7 +89,7 @@
     position: absolute;
     width: 8px;
     height: 8px;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(19, 18, 18, 0.932);
     border-radius: 50%;
   }
   
@@ -97,5 +98,5 @@
   }
   
   .keyboard__key--dark {
-    background: rgba(0, 0, 0, 0.25);
+    background: 08ff00(173, 16, 16, 0.25);
   }
